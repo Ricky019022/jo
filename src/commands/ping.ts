@@ -10,7 +10,7 @@ class PingCommand extends Command {
     }
 
     run(call: CommandCall){
-        return call.reply({ content: 'pong' });
+        return call.reply({ content: 'pollo' });
     }
 };
 
